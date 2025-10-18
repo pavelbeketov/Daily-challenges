@@ -14,7 +14,7 @@ function clearLogs() {
     
 }
 
-//===Beketov========================================================
+//==================================================================
 
 
 
@@ -22,4 +22,5 @@ function numberToString(num) {
   console.log(num.toString());
 }
 
-// numberToString(123324);
+ //numberToString(333123324);
+ 

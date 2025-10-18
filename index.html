@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSSBattle Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      background: gray;
+
+    }
+
+    .study {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    iframe {
+      width: 400px;
+      height: 300px;
+      border: 1px solid #000;
+      border-radius: 6px;
+      overflow: hidden;
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="study">
+
+    <!-- Day 1 -->
+    <iframe srcdoc="
+      <div></div>
+<style>
+  body {
+    background: #FFEA9B;
+    margin: 0;
+  }
+  div {
+    height: 300px;
+    background:
+      linear-gradient(#4A9A86 0 0) 30px 30px/100px 30px no-repeat,
+      linear-gradient(#4A9A86 0 0) 60px 60px/100px 30px no-repeat,
+      linear-gradient(#4A9A86 0 0) 90px 90px/110px 30px no-repeat,
+      linear-gradient(#4A9A86 0 0) 185px 120px/15px 150px no-repeat;
+  }
+  div::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      width: 50%;
+      height: 100%;
+      background: inherit;
+      transform: scaleX(-1);
+  }
+</style>
+    "></iframe>
+
+    <!-- Day 2 -->
+      </div>
+</body>
+</html>
