@@ -42,9 +42,91 @@ function clearLogs() {
 
 //or
 
+
+
 // function sum(numbers) {
 //   return numbers.reduce((a, b) => a + b, 0);
 // }
 
+// const x = sum([1, 2 ,2 ,3 ]);
+// console.log(x);
+
 
 // sum([1, 5, 5, 3, 3]);
+
+// function calc() {
+//   let x = 213;
+//   x = x - 12;
+//   x = x * 12342;
+//   console.log(x);
+// }
+
+// calc();
+
+// console,log(this);
+
+// var summation = function (num) {
+//   // Code here
+//   let i = 0;
+//   let result = 0;
+//   while (i <= num) {
+//     result = result + i;
+//     i++;
+//   }
+//   return result;
+// }
+
+// const x = summation(36);
+// console.log(x);
+
+
+
+// function past(h, m, s) {
+//   let result = s * 1000 + m * 60000 + h * 3600000;
+//   return result;
+// }
+
+// function past(h) {
+//   let result = h * 2134;
+//   console.log(result);
+// }
+
+// past(0, 0, 0);
+
+// function betterThanAverage(classPoints, yourPoints) {
+//   // Your code here
+//   let average = classPoints.reduce (((a, b) => a + b, 0))/classPoints.length;
+//   console.log(average);
+// }
+
+
+// function betterThanAverage(classPoints, yourPoints) {
+//   // Your code here
+//   return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length;
+// }
+
+
+// betterThanAverage([100, 40, 34, 57, 29, 72, 57, 88], 75);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
